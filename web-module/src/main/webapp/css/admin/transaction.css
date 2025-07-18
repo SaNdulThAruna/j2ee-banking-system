@@ -1,0 +1,122 @@
+h2{
+    color: var(--color-yellow);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.transaction-section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.transaction-form{
+    margin-top: 3.5rem;
+    text-align: center;
+    background-color: var(--dark-light-gray);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.quick-transfer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.qt-p {
+    font-size: 1.2rem;
+    color: var(--color-light-gray);
+}
+
+.qt-label {
+    font-size: 1.1rem;
+    color: var(--color-light-gray);
+}
+.qt-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
+.qt-checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+/*table*/
+.transaction-history{
+    padding: 1rem;
+    background-color: var(--dark-light-gray);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    overflow-x:  auto;
+    min-height: 300px;
+    flex: 1;
+}
+.transaction-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.history-header{
+    text-align:  center;
+}
+.search-container{
+    max-width: 500px;
+    margin: 2rem auto 2rem auto;
+}
+.search-input{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+#search-input{
+    width: 100%;
+}
+#search-button{
+    padding: 0.5rem 1rem;
+    background-color: var(--color-yellow);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: var(--dark-light-gray);
+}
+.filter-select{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.history-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem auto 0 auto;
+    background-color: var(--dark-light-gray);
+    color: var(--color-light-gray);
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    max-height:  500px;
+}
+
+.history-table th, .history-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--color-light-gray);
+}
+
+.history-table th {
+    background-color: #232323;
+    color: var(--color-yellow);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.history-table tr:last-child td {
+    border-bottom: none;
+}
+
+.history-table tr:hover {
+    background-color: #222;
+}

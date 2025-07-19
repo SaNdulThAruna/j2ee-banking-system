@@ -10,6 +10,8 @@ import com.athena.bank.ejb.util.AccountNumberGenerator;
 import com.athena.bank.ejb.util.PasswordUtil;
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.ejb.Stateless;
+import jakarta.ejb.TransactionAttribute;
+import jakarta.ejb.TransactionAttributeType;
 import jakarta.inject.Inject;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.NoResultException;
@@ -548,6 +550,7 @@ public class AccountBean implements AccountService {
 
     @Override
     @RolesAllowed({"SUPER_ADMIN", "ADMIN", "USER"})
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
     public boolean scheduleTransfer(ScheduleTransferRequestDTO scheduleTransferRequestDTO) {
         if ((scheduleTransferRequestDTO.getFromAccountId() <= 0 && (scheduleTransferRequestDTO.getFromAccountNumber() == null || scheduleTransferRequestDTO.getFromAccountNumber().isBlank()))) {
             throw new BusinessException("Source account ID or number must be provided");

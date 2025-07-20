@@ -374,7 +374,7 @@ h2 {
         align-items: center;
     }
 
-    .menu-laptop nav ul li {
+    .menu-laptop nav ul li a{
         display: flex;
         gap: 0.5em;
         font-size: 1.2rem;
@@ -385,7 +385,7 @@ h2 {
         justify-content: center;
     }
 
-    .menu-laptop nav ul li:hover {
+    .menu-laptop nav ul li a:hover {
         background-color: var(--color-yellow);
         color: black;
         cursor: pointer;

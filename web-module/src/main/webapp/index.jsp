@@ -49,13 +49,13 @@
             <div>
                 <label class="la1" for="username">Username</label>
                 <div class="input-container">
-                    <input id="username" type="text" name="username" placeholder="Enter your username" value="hansana" required>
+                    <input id="username" type="text" name="username" placeholder="Enter your username" required>
                 </div>
             </div>
             <div>
                 <label for="password">Password</label>
                 <div class="password-container">
-                    <input id="password" type="password" name="password" placeholder="Enter your password" value="ha123" required>
+                    <input id="password" type="password" name="password" placeholder="Enter your password" required>
                     <i class="fa-solid fa-eye" id="visible"></i>
                 </div>
             </div>

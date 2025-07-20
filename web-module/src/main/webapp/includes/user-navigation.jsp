@@ -27,11 +27,11 @@
     <div class="menu-laptop">
         <nav>
             <ul>
-                <li><i class="fa-solid fa-table"></i><a href="index.jsp">Dashboard</a></li>
-                <li><i class="fa-solid fa-user"></i><a href="profile.jsp">Profile</a></li>
-                <li><i class="fa-solid fa-money-bill-transfer"></i><a href="transaction.jsp">Transactions</a></li>
-                <li><i class="fa-solid fa-file-invoice"></i><a href="accounts.jsp">Accounts</a></li>
-                <li><i class="fa-solid fa-clock-rotate-left"></i><a href="history.jsp">History</a></li>
+                <li><a href="index.jsp"><i class="fa-solid fa-table"></i>Dashboard</a></li>
+                <li><a href="profile.jsp"><i class="fa-solid fa-user"></i>Profile</a></li>
+                <li><a href="transaction.jsp"><i class="fa-solid fa-money-bill-transfer"></i>Transactions</a></li>
+                <li><a href="accounts.jsp"><i class="fa-solid fa-file-invoice"></i>Accounts</a></li>
+                <li><a href="history.jsp"><i class="fa-solid fa-clock-rotate-left"></i>History</a></li>
             </ul>
         </nav>
         <div class="user-info">

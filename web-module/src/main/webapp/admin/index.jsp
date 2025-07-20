@@ -45,21 +45,21 @@
         <div class="dashboard-content">
             <div class="dashboard-actions">
                 <div class="actions">
-                    <a href="#" class="action-item">
+                    <a href="transaction.jsp" class="action-item">
                         <i class="fa-solid fa-arrow-up ar1"></i>
                         <h2>Transaction</h2>
                     </a>
-                    <a href="#" class="action-item">
+                    <a href="users.jsp" class="action-item">
                         <i class="fa-solid fa-user"></i>
                         <h2>Users</h2>
                     </a>
                 </div>
                 <div class="actions">
-                    <a href="#" class="action-item">
+                    <a href="accounts.jsp" class="action-item">
                         <i class="fa-solid fa-file-invoice-dollar ar3"></i>
                         <h2>Accounts</h2>
                     </a>
-                    <a href="#" class="action-item">
+                    <a href="report.jsp" class="action-item">
                         <i class="fa-solid fa-chart-line"></i>
                         <h2>Reports</h2>
                     </a>
